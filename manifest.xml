@@ -1,0 +1,16 @@
+<?xml version='1.0' ?>
+<Manifest>
+    <Id>b87tz0mm5v</Id>
+    <Secret>E9C518E193D0B45AB641899566E49C9B</Secret>
+  <AppVersion>1.0.0</AppVersion>
+  <ManifestVersion>1.2</ManifestVersion>
+  <AppType>WebApp</AppType>
+    <Privileges>
+        <Privilege>
+            <Name>WEB_SERVICE</Name>
+        </Privilege>
+    </Privileges>
+    <DeviceProfile>
+        <APIVersion>2.0</APIVersion>
+    </DeviceProfile>
+</Manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Application>
+    <Entry>TubeStatus</Entry>
+    <Name>
+        <English>TubeStatus</English>
+        <eng-GB>TubeStatus</eng-GB>
+    </Name>
+    <Vendor>com.andrewsavory.bada</Vendor>
+    <Description>Tube Status</Description>
+    <Icons>
+        <MainMenu>TubeStatus_type4.png<Type1/>
+            <Type2>TubeStatus_type2.png</Type2>
+            <Type3>TubeStatus_type3.png</Type3>
+            <Type4>TubeStatus_type4.png</Type4>
+        </MainMenu>
+        <Setting/>
+        <Ticker/>
+        <QuickPanel/>
+        <LaunchImage>Splash_type4.png<Type1/>
+            <Type2>Splash_type2.png</Type2>
+            <Type3>Splash_type3.png</Type3>
+            <Type4>Splash_type4.png</Type4>
+        </LaunchImage>
+    </Icons>
+    <AutoScaling>
+        <Enabled>false</Enabled>
+    </AutoScaling>
+</Application>

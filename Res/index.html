@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="target-densitydpi=high-dpi, user-scalable=no" />
+<title>Class1</title>
+<link href="osp://webapp/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="osp://webapp/js/webapp_core.js"> </script>
+<script type="text/javascript" src="osp://webapp/js/webapp_ui.js"> </script>
+<script type="text/javascript" src="./js/TubeStatus.js"> </script>
+<script>
+	Osp.App.Application.addEventListener("initializing", function()
+	{
+		Osp.Ui.init();
+		appObj = new TubeStatus();
+		appObj.launch();
+	}, this);
+</script>
+</head>
+<body>
+<p>Hello world</p><h1>foo</h1>
+</body>
+</html>	
